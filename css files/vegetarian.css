@@ -26,6 +26,7 @@
         padding-bottom: 20px;
         background-color: rgb(253, 252, 205);
     }
+    
     #navlist {
         width: 100%;
         display: flex;
@@ -43,7 +44,7 @@
     }
 
     main {
-        padding-top: 60px;
+        padding-top: 20px;
         margin: 20px;
     }
 
