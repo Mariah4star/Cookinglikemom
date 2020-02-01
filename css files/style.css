@@ -1,3 +1,4 @@
+/*Whole page*/
 * {
     margin: 0px; 
     }
@@ -5,7 +6,7 @@
     html {
         background-color: rgba(186, 186, 186, 0.151);
     }
-
+/*Header*/
     header {
         text-align: center;
         width: 100%;
@@ -14,7 +15,7 @@
         padding-top: 30px;
         padding-bottom: 30px;
     }
-    
+    /*Navagation working*/
     #navbar {
         display: flex;
         justify-content: space-around;
@@ -42,7 +43,7 @@
     .navlist a:hover {
      background: #B5E4E6;
     }
-
+/*Body and main working working*/
     main {
         padding-top: 20px;
         margin: 20px;
@@ -56,10 +57,11 @@
         font-size: 24px;
     }
 
-    a{
+    a, p{
         font-size: 16px;
     }
 
+/*footer*/
     footer {
         text-align: center;
         padding-bottom: 10px;
