@@ -3,7 +3,7 @@
     }
 
     html {
-        background-color: rgba(186, 186, 186, 0.308);
+        background-color: rgba(186, 186, 186, 0.185);
     }
 
     header {
@@ -24,7 +24,7 @@
         font-size: 18px;
         padding-top: 20px;
         padding-bottom: 20px;
-        background-color: #B3A7C2;
+        background-color: rgba(253, 252, 205, 0.664);
     }
     
     #navlist {
@@ -62,4 +62,5 @@
 
     footer {
         text-align: center;
+        padding-bottom: 10px;
     }
