@@ -39,9 +39,14 @@
 
 
     .navlist a:hover {
-     background: #B5E4E6;
+     background: teal;
     }
 /*Body and main working working*/
+
+    body{
+        margin: 0;
+    }
+
     main {
         padding-top: 20px;
         margin: 20px;
@@ -55,7 +60,15 @@
         font-size: 24px;
     }
 
+    h3{
+        border-color: rgba(0, 0, 0, 0.548);
+        font-size: 14px;
+    }
+
     a, p{
+        font-size: 18px;
+    }
+    ol, ul{
         font-size: 16px;
     }
 
