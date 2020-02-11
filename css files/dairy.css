@@ -1,11 +1,7 @@
 /*Whole page*/
 * {
     margin: 0px; 
-    }
-
-    html {
-        background-color: rgba(186, 186, 186, 0.151);
-    }
+}
 /*Header*/
     header {
         text-align: center;
