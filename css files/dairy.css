@@ -22,9 +22,8 @@
         height: 20px;
         font-size: 18px;
         padding-top: 10px;
-        padding-bottom: 30px;
+        padding-bottom: 40px;
         background-color: rgb(252, 251, 182);
-       
     }
     
     #navlist {
@@ -39,9 +38,8 @@
     }
 
 
-    .navlist a:hover {
-     background: teal;
-     color: teal;
+    #navlist a:hover {
+     background: rgba(255, 166, 0, 0.185);
     }
 /*Body and main working working*/
 
