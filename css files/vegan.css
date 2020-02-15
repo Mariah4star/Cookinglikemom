@@ -67,20 +67,28 @@
     }
 
     a, p{
-        font-size: 18px;
+        font-size: 16px;
     }
     ol, ul{
-        font-size: 16px;
+        font-size: 14px;
+        margin: 10px;
+        padding: 10px;
+        float: center; 
     }
     #why {
         list-style: circle;
     }
+    .Header {
+        display: flex;
+        justify-content: center;
+     }
 
 /*footer*/
     footer {
         background-color:rgb(252, 251, 182);
         border-style: ridge;
         border-color: rgba(128, 128, 128, 0.192);
+        border-width: medium;
         text-align: center;
         padding-bottom: 10px;
         padding-top: 10px;
