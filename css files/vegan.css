@@ -3,7 +3,11 @@
     margin: 0px; 
     font-family: 'Open Sans', sans-serif;
     }
+    
+a:link {
+    text-decoration: none;
 
+}  
 /*Header*/
     header {
         text-align: center;
