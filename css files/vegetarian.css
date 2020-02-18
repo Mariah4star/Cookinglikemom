@@ -48,7 +48,7 @@ a:link {
     }
 
     /*:active*/
-    #navlist a:active {
+    #navlists a:active {
         background-color: rgba(203, 160, 255, 0.925)
     }
 
