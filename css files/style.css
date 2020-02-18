@@ -49,6 +49,19 @@ a:link {
      background: rgba(203, 160, 255, 0.514)
     }
 
+     /*:active*/
+     #navlist a:active {
+        background-color: rgba(203, 160, 255, 0.925)
+    }
+
+    #links a:active {
+        background-color: rgba(203, 160, 255, 0.925)
+      }
+    
+    #links a:hover{
+        background-color: rgba(203, 160, 255, 0.925)
+    }
+
 /*Body and main working working*/
 
     body{
@@ -75,15 +88,6 @@ a:link {
 
     a, p{
         font-size: 16px;
-    }
-
-    /*:active*/
-    #links a:active {
-        background-color: rgba(203, 160, 255, 0.925)
-      }
-    
-    #links a:hover{
-        background-color: rgba(203, 160, 255, 0.925)
     }
 
     ol, ul, dl{
