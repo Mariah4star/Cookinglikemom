@@ -76,6 +76,8 @@ a:link {
     a, p{
         font-size: 16px;
     }
+
+    /*:active*/
     #links a:active {
         background-color: rgba(203, 160, 255, 0.925)
       }
