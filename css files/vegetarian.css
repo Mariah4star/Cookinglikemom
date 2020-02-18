@@ -45,8 +45,8 @@ a:link {
 
 
     #navlist a:hover {
-     background: rgba(255, 166, 0, 0.185);
-    }
+        background: rgba(203, 160, 255, 0.514)
+       }
 
      /*:active*/
      #navlist a:active {
