@@ -73,12 +73,25 @@ a:link {
     a, p{
         font-size: 16px;
     }
-    ol, ul{
+    
+    #links a:active {
+        background-color: rgba(203, 160, 255, 0.925)
+      }
+    
+    #links a:hover{
+        background-color: rgba(203, 160, 255, 0.925)
+    }
+
+    ol, ul, dl{
         font-size: 14px;
         margin: 10px;
         padding: 10px;
         float: center; 
     }
+    .list {
+        display: wrap;
+    }
+
     #why {
         list-style: circle;
     }
