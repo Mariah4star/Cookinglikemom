@@ -49,10 +49,10 @@ a:link {
     }
 
      /*:active*/
-    .active:active {
+    .navbar .active:active {
         background-color: rgba(141, 140, 141, 0.925)
     }
-    nav .active:active {
+    .navbar .active:active {
         color: rgb(115, 0, 255);
     }
 
@@ -60,12 +60,16 @@ a:link {
         background-color: rgba(141, 140, 141, 0.925)
     }
 
-    #links a:active {
+    .links a:active {
         background-color: rgba(141, 140, 141, 0.925)
       }
     
-    #links a:hover{
+    .links a:hover{
         background-color: rgba(203, 160, 255, 0.925)
+    }
+
+    .im .current {
+        color: black
     }
 
 /*Body and main working working*/
