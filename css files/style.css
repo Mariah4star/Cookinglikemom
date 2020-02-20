@@ -29,7 +29,7 @@ a:link {
         height: 20px;
         font-size: 18px;
         padding-top: 10px;
-        padding-bottom: 60px;
+        padding-bottom: 55px;
         background-color: rgb(252, 251, 182);
     }
     
@@ -45,32 +45,25 @@ a:link {
     }
 
     #navlist a:hover {
-     background: rgba(203, 160, 255, 0.514)
+     background: rgba(203, 160, 255, 0.514);
     }
 
      /*:active*/
-    .navbar .active:active {
-        background-color: rgba(141, 140, 141, 0.925)
-    }
-    .navbar .active:active {
-        color: rgb(115, 0, 255);
-    }
+    .active .current{
+        color: black;
+        background-color: rgba(141, 140, 141, 0.377);
+     }
+     
+  nav:active{
+      color: rgba(203, 160, 255, 0.925);
+  }
 
-    #navlist a:active {
-        background-color: rgba(141, 140, 141, 0.925)
-    }
-
+  .links a:hover{
+    background-color: rgba(203, 160, 255, 0.925);
+}
     .links a:active {
-        background-color: rgba(141, 140, 141, 0.925)
+        background-color: rgba(141, 140, 141, 0.925);
       }
-    
-    .links a:hover{
-        background-color: rgba(203, 160, 255, 0.925)
-    }
-
-    .im .current {
-        color: black
-    }
 
 /*Body and main working working*/
 
@@ -94,6 +87,10 @@ a:link {
     h3{
         border-color: rgba(0, 0, 0, 0.514);
         font-size: 14px;
+    }
+
+    ul {
+        list-style: none;
     }
 
     a, p{

@@ -28,7 +28,7 @@ a:link {
         height: 20px;
         font-size: 18px;
         padding-top: 10px;
-        padding-bottom: 60px;
+        padding-bottom: 55px;
         background-color: rgb(252, 251, 182);
     }
     
@@ -48,25 +48,22 @@ a:link {
         background: rgba(203, 160, 255, 0.514)
        }
 
-     /*:active*/
-     .active:active {
-        background-color: rgba(141, 140, 141, 0.925)
-    }
-    nav .active:active {
-        color: rgb(115, 0, 255);
-    }
+      /*:active*/
+    .active .current{
+        color: black;
+        background-color: rgba(141, 140, 141, 0.377);
+     }
+     
+  nav:active{
+      color: rgba(203, 160, 255, 0.925);
+  }
 
-    #navlist a:active {
-        background-color: rgba(141, 140, 141, 0.925)
-    }
-
-    #links a:active {
-        background-color: rgba(141, 140, 141, 0.925)
+  .links a:hover{
+    background-color: rgba(203, 160, 255, 0.925);
+}
+    .links a:active {
+        background-color: rgba(141, 140, 141, 0.925);
       }
-    
-    #links a:hover{
-        background-color: rgba(203, 160, 255, 0.925)
-    }
  /*and main working working*/
 
     body{
@@ -98,7 +95,9 @@ a:link {
         font-size: 16px;
     }
 
-    
+    ul {
+        list-style: none;
+    }
 
     ol, ul, dl{
         font-size: 14px;
