@@ -47,12 +47,12 @@ a:link {
     #navlist a:hover {
         background: rgba(203, 160, 255, 0.514)
        }
-
-      /*:active*/
-    .active .current{
-        color: black;
-        background-color: rgba(141, 140, 141, 0.377);
-     }
+       
+ /*:active*/
+ .active a.current{
+    color: black;
+    background-color: rgba(141, 140, 141, 0.377);
+ }
      
   nav:active{
       color: rgba(203, 160, 255, 0.925);

@@ -46,8 +46,8 @@ a:link {
         background: rgba(203, 160, 255, 0.514)
        }
 
-      /*:active*/
-    .active a.current{
+     /*:active*/
+     .active a.current{
         color: black;
         background-color: rgba(141, 140, 141, 0.377);
      }
