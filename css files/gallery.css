@@ -63,7 +63,7 @@ a:link {
         background-color: rgba(141, 140, 141, 0.925);
       }
 
-/*Body and main working working*/
+
 
     body{
         margin: 0;
@@ -112,6 +112,15 @@ a:link {
     .Header {
        display: flex;
        justify-content: center;
+    }
+
+    #projectgrid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 4rem;
+        max-width: 1280px;
+        margin: 15px;
+        margin-right: 45px;
     }
 
 /*footer*/
