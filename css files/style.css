@@ -101,11 +101,12 @@ a:link {
     #monkey{
         display: flex;
         font-size: 12px;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     #food{
-        height: 150px
+        height: 150px;
+        padding-right: 10px;
     }
 
     #george {
