@@ -123,6 +123,10 @@ a:link {
         margin-right: 45px;
     }
 
+    #caption{
+        padding-left: 40px;
+    }
+
 /*footer*/
 footer {
     background-color:rgb(252, 251, 182);

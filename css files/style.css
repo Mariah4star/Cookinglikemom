@@ -105,7 +105,7 @@ a:link {
     }
 
     #food{
-        height: 150px;
+        height: 100%;
         padding-right: 10px;
     }
 
@@ -113,6 +113,10 @@ a:link {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+    }
+
+    #caption{
+        padding-left: 40px;
     }
 
     a, p{
