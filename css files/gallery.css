@@ -116,15 +116,29 @@ a:link {
 
     #projectgrid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
         grid-gap: 4rem;
         max-width: 1280px;
         margin: 15px;
         margin-right: 45px;
     }
 
+    #tile {
+        padding: 15px;
+    }
+
+    #figure{
+        border-style: ridge;
+        border-color: rgba(128, 128, 128, 0.192);
+        width: 170px
+    }
+
     #caption{
-        padding-left: 40px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+        font-size: 12px;
+        text-align: center;
     }
 
 /*footer*/
