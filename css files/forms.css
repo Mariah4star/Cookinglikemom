@@ -75,15 +75,31 @@ a:link {
         padding-top: 20px;
         margin: 20px;
     }
-    #button {
-        display: flex;
-        justify-content: center;
+    h1{
+        font-size: 24px;
     }
+
+    #button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+      #IHATETHIS {
+          display: flex;
+          justify-content: center;
+          font-size: 14px;
+      }
+
 /*footer*/
     footer {
         background-color:rgb(252, 251, 182);
         border-style: ridge;
-        border-color: rgba(128, 128, 128, 0.192);
+        border-color: #80808031;
         border-width: medium;
         text-align: center;
         padding-bottom: 10px;
