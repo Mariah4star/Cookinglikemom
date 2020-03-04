@@ -75,69 +75,10 @@ a:link {
         padding-top: 20px;
         margin: 20px;
     }
-
-    h1{
-        font-size: 36px;
-    }
-
-    h2{
-        font-size: 24px;
-    }
-
-    h3{
-        border-color: rgba(0, 0, 0, 0.514);
-        font-size: 14px;
-    }
-
-    ul {
-        list-style: none;
-    }
-
-    #list{
-        display: block; 
-        text-align: left;
-    }
-
-    #monkey{
+    #button {
         display: flex;
-        font-size: 12px;
-        justify-content: space-between;
+        justify-content: center;
     }
-
-    #food{
-        height: 100%;
-        padding-right: 50px;
-    }
-
-    #george {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    }
-
-    #caption{
-        padding-left: 40px;
-        padding-bottom: 20px;
-    }
-
-    a, p{
-        font-size: 16px;
-    }
-
-    ol, ul, dl{
-        font-size: 14px;
-        margin: 10px;
-        padding: 10px;
-        float: center; 
-    }
-    .list {
-        display: wrap;
-    }
-
-    #what {
-        list-style: square;
-    }
-
 /*footer*/
     footer {
         background-color:rgb(252, 251, 182);

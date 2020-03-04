@@ -35,7 +35,39 @@
     </nav>
     <!--Main-->
     <main>
-
+        <h1> Get Our Updates!!!</h1>
+        <form action="FormToEmail.php" method="post" enctype="multipart/form-data" name="attend" class="conference">
+            <fieldset>
+                <legend> Personal Info</legend>
+                <label>
+                    <span>*Name:</span>
+                    <input name="name" type="text" placeholder="full name" required class="userinfo">
+                </label>
+                <legend></legend>
+                <label>
+                    <span>*Email:</span>
+                    <input name="email" type="email" placeholder="Your email" required class="userinfo">
+                </label>
+                <legend></legend>
+                <label>
+                    <span>*Number:</span>
+                    <input name="telphone" type="text" placeholder="000-000-000" required class="userinfo">
+                </label>
+                <legend></legend>
+                <label>
+                    <span>*Are you learning to cook:</span>
+                    <input name="radio" type="text" placeholder="Yes or No" required class="userinfo">
+                </label>
+                <legend></legend>
+                <label>
+                    <span>*Why you want our updates:</span>
+                    <input name="why" type="text" placeholder="because...." required class="userinfo">
+                </label>
+                <div class="button" id="button">
+                <button>Submit</button>
+            </div>
+            </fieldset>
+        </form>
     </main>
 </body>
 <!--Footer-->
