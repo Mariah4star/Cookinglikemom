@@ -54,15 +54,24 @@
                     <input name="telphone" type="text" placeholder="000-000-000" required class="userinfo">
                 </label>
                 <legend></legend>
-                <label>
-                    <span>*Are you learning to cook:</span>
-                    <input name="radio" type="text" placeholder="Yes or No" required class="userinfo">
-                </label>
+                <label for="si/no">Are you learning to cook?</label>
+                <select id="si/no">
+                    <option value="Yes">Yes</option>
+                    <option value="no">No</option>
+                    <option value="Thinking about it">Thinking about it</option>
+                    <option value="Pretending to">Pretending to</option>
+                </select>
                 <legend></legend>
                 <label>
                     <span>*Why you want our updates:</span>
                     <input name="why" type="text" placeholder="because...." required class="userinfo">
                 </label>
+                <input type="checkbox" id="r1" name="r1" value="want">
+                <label for="r1"> I want recipes sent to me</label><br>
+                <input type="checkbox" id="r2" name="r2" value="allergies">
+                <label for="r2"> I have food limitations</label><br>
+                <input type="checkbox" id="r3" name="r3" value="Boat">
+                <label for="r3"> I like desserts</label><br>
                 <div class="button" id="button">
                     <button>Submit</button>
                 </div>
