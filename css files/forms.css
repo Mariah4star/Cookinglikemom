@@ -4,12 +4,10 @@
     font-family: 'Open Sans', sans-serif;
     color: black;
     }
-    
 a:link {
     text-decoration: none;
 
-}    
-
+}  
 /*Header*/
     header {
         text-align: center;
@@ -44,11 +42,12 @@ a:link {
         padding: 1rem;
     }
 
-    #navlist a:hover {
-     background: rgba(203, 160, 255, 0.514);
-    }
 
-     /*:active*/
+    #navlist a:hover {
+        background: rgba(203, 160, 255, 0.514)
+       }
+
+      /*:active*/
     .active a.current{
         color: black;
         background-color: rgba(141, 140, 141, 0.377);
@@ -66,40 +65,80 @@ a:link {
       }
 
 /*Body and main working working*/
+form{
+    display: flex;
+    justify-content: center;
+}
+button{
+    font-size: 14px;
+}
+
+.button {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  fieldset {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+  }
+
+  label{
+      margin: 10px;
+  }
 
     body{
         margin: 0;
     }
 
     main {
-        padding-top: 20px;
         margin: 20px;
     }
+
     h1{
+        font-size: 36px;
+        display: flex;
+        justify-content: center;
+    }
+
+    h2{
         font-size: 24px;
     }
 
-    #button {
-        background-color: #4CAF50; /* Green */
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
+    h3{
+        border-color: rgba(0, 0, 0, 0.548);
+        font-size: 14px;
+    }
+
+    a, p{
         font-size: 16px;
-      }
-      #IHATETHIS {
-          display: flex;
-          justify-content: center;
-          font-size: 14px;
-      }
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    ol, ul, dl{
+        font-size: 14px;
+        margin: 10px;
+        padding: 10px;
+        float: center; 
+    }
+    .list {
+        display: wrap;
+    }
+    .Header {
+        display: flex;
+        justify-content: center;
+     }
 
 /*footer*/
     footer {
         background-color:rgb(252, 251, 182);
         border-style: ridge;
-        border-color: #80808031;
+        border-color: rgba(128, 128, 128, 0.192);
         border-width: medium;
         text-align: center;
         padding-bottom: 10px;
