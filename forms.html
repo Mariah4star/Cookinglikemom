@@ -49,10 +49,9 @@
                     <input name="email" type="email" placeholder="Your email" required class="userinfo">
                 </label>
                 <legend></legend>
-                <label>
+                <label for="phone">
                     <span>*Number:</span>
-                    <input name="telphone" type="tel" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
-                        placeholder="000-000-000" required class="userinfo">
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="000-000-0000">
                 </label>
                 <legend></legend>
                 <label for="si/no">Are you learning to cook?</label>
@@ -89,9 +88,9 @@
                 <label for="vegan">
                     <input type="radio" id="food limitations" name="limits" value="vegan">
                     Vegan</label>
-                    <label for="reg">
-                        <input type="radio" id="food limitations" name="limits" value="reg">
-                        I eat like a noraml human</label>
+                <label for="reg">
+                    <input type="radio" id="food limitations" name="limits" value="reg">
+                    I eat like a noraml human</label>
                 <div class="button" id="button">
                     <button>Submit</button>
                 </div>
