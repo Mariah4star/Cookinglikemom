@@ -65,6 +65,11 @@ a:link {
         background-color: rgba(141, 140, 141, 0.925);
       }
  /*and main working working*/
+ .wrapper{
+    width: auto;
+    max-width: 100000000px;
+    min-width: 300px;
+  }
 
     body{
         margin: 0;

@@ -88,6 +88,11 @@ button{
   label{
       margin: 10px;
   }
+  .wrapper{
+    width: auto;
+    max-width: 100000000px;
+    min-width: 300px;
+  }
 
     body{
         margin: 0;

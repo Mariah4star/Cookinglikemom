@@ -64,6 +64,12 @@ a:link {
       }
 
 /*Body and main working working*/
+.wrapper{
+    width: auto;
+    max-width: 100000000px;
+    min-width: 300px;
+  }
+
 
     body{
         margin: 0;
