@@ -115,14 +115,13 @@ a:link {
        justify-content: center;
     }
 
-    li {
-        margin-left: 40px;
-    }
-
-    #why {
-        list-style-image: url("/images/milk.jpg");
-        text-align: center;
-    }
+    #what {
+        background: url("/images/milk.jpg") no-repeat left top; /* <-- change `left` & `top` too for extra control */
+        padding: 3px 0px 10px 22px;
+        /* reset styles (optional): */
+        list-style: none;
+        margin: 0;
+        }
 
 /*footer*/
 footer {
