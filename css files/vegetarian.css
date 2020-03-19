@@ -103,6 +103,14 @@ a:link {
     ul {
         list-style: none;
     }
+    
+    li {
+        margin: 10px;
+    }
+
+    #why {
+        list-style-image: url("/images/tomato.jpg");
+    }
 
     ol, ul, dl{
         font-size: 14px;
