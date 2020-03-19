@@ -116,8 +116,11 @@ a:link {
 
     #why {
         list-style: circle;
+        background-image: url("/images/healthy.jpg");
     }
-    
+    #who{
+        background-image: url("/images/foodheader.jpg");
+    }
     .Header {
         display: flex;
         justify-content: center;
