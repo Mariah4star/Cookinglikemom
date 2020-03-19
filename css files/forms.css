@@ -13,7 +13,7 @@ a:link {
         text-align: center;
         width: 100%;
         display: wrap;
-        background-color: rgb(252, 251, 182);
+        background-image: url("/images/lemons.jpg");
         padding-top: 30px;
         padding-bottom: 30px;
     }
@@ -95,6 +95,7 @@ button{
   }
 
     body{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.103), white);
         margin: 0;
     }
 
