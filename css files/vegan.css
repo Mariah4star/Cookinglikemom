@@ -129,3 +129,88 @@ a:link {
         padding-bottom: 10px;
         padding-top: 10px;
     }
+    /*@media rules*/
+
+@media screen and (max-width: 100000px) {
+    #navbar {
+        display: flex;
+        justify-content: space-around;
+        /*position: fixed;
+        background-color(purple): rgba(203, 160, 255, 0.925);*/
+        width: 100%; 
+        height: 20px;
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 55px;
+        background-color: rgb(252, 251, 182);
+    }
+    
+    #navlist {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    #navlist a{
+        display: block;
+        padding: 1rem;
+    }
+
+    #navlist a:hover {
+     background: rgba(203, 160, 255, 0.514);
+    }
+}
+@media screen and (max-width: 970px) {
+    #navbar {
+        display: flex;
+        justify-content: space-around;
+        width: 100%; 
+        height: 20px;
+        padding-bottom: 90px;
+        background-color: rgb(252, 251, 182);
+    }
+    
+    #navlist {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    #navlist a{
+        display: block;
+        padding: .4rem;
+    }
+
+    #navlist a:hover {
+     background: rgba(203, 160, 255, 0.514);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #navbar {
+        display: flex;
+        justify-content: space-around;
+        width: 100%; 
+        height: 20px;
+        padding-bottom: 90px;
+        background-color: rgb(252, 251, 182);
+    }
+    
+    #navlist {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    #navlist a{
+        display: block;
+        padding: .4rem;
+    }
+
+    #navlist a:hover {
+     background: rgba(203, 160, 255, 0.514);
+    }
+    button{
+        border-radius: 25px;
+    }
+}
