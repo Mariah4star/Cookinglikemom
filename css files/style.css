@@ -70,6 +70,7 @@ a:link {
         width: auto;
         max-width: 100000000px;
         min-width: 300px;
+        
       }
 
     body{
@@ -112,6 +113,7 @@ a:link {
     #food{
         height: 100%;
         padding-right: 50px;
+        filter: drop-shadow(1px 1px 3px #00000041);
     }
 
     #george {

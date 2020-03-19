@@ -117,6 +117,7 @@ a:link {
     #why {
         list-style: circle;
     }
+    
     .Header {
         display: flex;
         justify-content: center;

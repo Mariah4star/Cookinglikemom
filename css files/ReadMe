@@ -2,5 +2,6 @@ My background-gradient is on the footer in the forms page along with the button 
 
 My Nav rules are on all of my pages.
  
-My menu is horizontal no matter where you are... on phone I am trying to do a drop down menu.
+my meta tag is <meta name="viewport" content="width=device-width, initial-scale=1.0"> and it was already there
 
+I didn't  know what it ment to add a different image to the lists on my site

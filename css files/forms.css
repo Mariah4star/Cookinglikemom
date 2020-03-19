@@ -92,6 +92,7 @@ button{
     width: auto;
     max-width: 100000000px;
     min-width: 300px;
+    filter: drop-shadow(1px 1px 3px #00000041);
   }
 
     body{
@@ -103,8 +104,13 @@ button{
         margin: 20px;
     }
 
-    h1{
+    h1 {
         font-size: 36px;
+    }
+
+    h4{
+        font-size: 36px;
+        text-shadow: 2px 2px yellow;
     }
 
     h2{
