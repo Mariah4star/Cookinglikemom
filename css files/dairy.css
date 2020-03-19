@@ -110,13 +110,17 @@ a:link {
         display: wrap;
     }
 
-    #why {
-        list-style: circle;
-    }
-
     .Header {
        display: flex;
        justify-content: center;
+    }
+
+    li {
+        margin-left: 40px;
+    }
+
+    #why {
+        list-style-image: url("/images/milk.jpg");
     }
 
 /*footer*/
@@ -142,7 +146,7 @@ footer {
         height: 20px;
         font-size: 18px;
         padding-top: 10px;
-        padding-bottom: 60px;
+        padding-bottom: 70px;
         background-color: rgb(252, 251, 182);
     }
     
