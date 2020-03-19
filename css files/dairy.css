@@ -121,6 +121,7 @@ a:link {
 
     #why {
         list-style-image: url("/images/milk.jpg");
+        text-align: center;
     }
 
 /*footer*/

@@ -119,6 +119,7 @@ a:link {
 
     #why {
         list-style-image: url("/images/tomato.jpg");
+        text-align: center;
     }
 
     .Header {
