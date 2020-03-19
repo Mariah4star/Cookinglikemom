@@ -27,7 +27,7 @@ a:link {
         height: 20px;
         font-size: 18px;
         padding-top: 10px;
-        padding-bottom: 55px;
+        padding-bottom: 90px;
         background-color: rgb(252, 251, 182);
     }
     
@@ -100,6 +100,7 @@ a:link {
 
     ul {
         list-style: none;
+        padding-right: 10px;
     }
 
     ol, ul, dl{
@@ -111,9 +112,15 @@ a:link {
     .list {
         display: wrap;
     }
-    #why {
-        list-style: circle;
+
+    li {
+        margin: 10px;
     }
+
+    #why {
+        list-style-image: url("/images/tomato.jpg");
+    }
+
     .Header {
         display: flex;
         justify-content: center;
@@ -141,7 +148,7 @@ a:link {
         height: 20px;
         font-size: 18px;
         padding-top: 10px;
-        padding-bottom: 55px;
+        padding-bottom: 60px;
         background-color: rgb(252, 251, 182);
     }
     
@@ -166,7 +173,7 @@ a:link {
         justify-content: space-around;
         width: 100%; 
         height: 20px;
-        padding-bottom: 90px;
+        padding-bottom: 100px;
         background-color: rgb(252, 251, 182);
     }
     

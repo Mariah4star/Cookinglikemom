@@ -116,11 +116,9 @@ a:link {
 
     #why {
         list-style: circle;
-        background-image: url("/images/healthy.jpg");
+        list-style-image: url("/images/bread.jpg");
     }
-    #who{
-        background-image: url("/images/foodheader.jpg");
-    }
+
     .Header {
         display: flex;
         justify-content: center;
