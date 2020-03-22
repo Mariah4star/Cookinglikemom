@@ -96,7 +96,6 @@ button{
   }
 
     body{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.103), white);
         margin: 0;
     }
 
@@ -106,6 +105,10 @@ button{
 
     h1 {
         font-size: 36px;
+    }
+
+    span, h2, h1 {
+        text-shadow: 2px 2px yellow;
     }
 
     h4{
@@ -212,6 +215,9 @@ button{
 }
 
 @media screen and (max-width: 600px) {
+    html {
+        background-image: linear-gradient(white, rgb(203, 160, 255, 0.514));
+    }
     #navbar {
         display: flex;
         justify-content: space-around;
@@ -219,6 +225,7 @@ button{
         height: 20px;
         padding-bottom: 90px;
         background-color: rgb(252, 251, 182);
+        
     }
     
     #navlist {
@@ -229,7 +236,7 @@ button{
     
     #navlist a{
         display: block;
-        padding: .4rem;
+        padding: 3px;
     }
 
     #navlist a:hover {

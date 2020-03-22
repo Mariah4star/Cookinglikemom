@@ -216,6 +216,9 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    html {
+        background-color: rgba(203, 160, 255, 0.514);
+    }
     #navbar {
         display: flex;
         justify-content: space-around;
@@ -223,6 +226,7 @@ footer {
         height: 20px;
         padding-bottom: 90px;
         background-color: rgb(252, 251, 182);
+        
     }
     
     #navlist {
@@ -233,7 +237,7 @@ footer {
     
     #navlist a{
         display: block;
-        padding: .4rem;
+        padding: 3px;
     }
 
     #navlist a:hover {
