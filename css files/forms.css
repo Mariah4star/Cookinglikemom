@@ -215,6 +215,9 @@ button{
 }
 
 @media screen and (max-width: 600px) {
+    html {
+        background-image: linear-gradient(white, rgb(203, 160, 255, 0.514));
+    }
     #navbar {
         display: column;
         justify-content: center;
