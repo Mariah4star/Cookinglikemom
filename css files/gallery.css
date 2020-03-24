@@ -10,58 +10,59 @@ a:link {
 
 }  
 /*Header*/
-    header {
-        text-align: center;
-        width: 100%;
-        display: wrap;
-        background-image: url("/images/lemons.jpg");
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    /*Navagation working*/
-    #navbar {
-        display: flex;
-        justify-content: space-around;
-        /*position: fixed;
-        background-color(purple): rgba(203, 160, 255, 0.925);*/
-        width: 100%; 
-        height: 20px;
-        font-size: 18px;
-        padding-top: 10px;
-        padding-bottom: 55px;
-        background-color: rgb(252, 251, 182);
-    }
-    
-    #navlist {
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    
-    #navlist a{
-        display: block;
-        padding: 1rem;
-    }
-    #navlist a:hover {
-        background: rgba(203, 160, 255, 0.514)
-       }
-
-     /*:active*/
-     .active a.current{
-        color: black;
-        background-color: rgba(141, 140, 141, 0.377);
-     }
-     
-  nav:active{
-      color: rgba(203, 160, 255, 0.377);
-  }
-
-  .links a:hover{
-    background-color: rgba(203, 160, 255, 0.925);
+header {
+    text-align: center;
+    width: 100%;
+    display: wrap;
+    background-image: url("/images/lemons.jpg");
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-    .links a:active {
-        background-color: rgba(141, 140, 141, 0.925);
-      }
+/*Navagation working*/
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    /*position: fixed;
+    background-color(purple): rgba(203, 160, 255, 0.925);*/
+    width: 100%; 
+    height: 20px;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 55px;
+    background-color: rgb(252, 251, 182);
+}
+
+#navlist {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#navlist a{
+    display: block;
+    padding: 1rem;
+}
+
+#navlist a:hover {
+ background: rgba(203, 160, 255, 0.514);
+}
+
+ /*:active*/
+.active a.current{
+    color: black;
+    background-color: rgba(141, 140, 141, 0.377);
+ }
+ 
+nav:active{
+  color: rgba(203, 160, 255, 0.925);
+}
+
+.links a:hover{
+background-color: rgba(203, 160, 255, 0.925);
+}
+.links a:active {
+    background-color: rgba(141, 140, 141, 0.925);
+  }
 /*MAIN*/
       .wrapper{
         width: auto;

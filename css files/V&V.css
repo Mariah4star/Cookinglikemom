@@ -4,11 +4,12 @@
     font-family: 'Open Sans', sans-serif;
     color: black;
     }
-
+    
 a:link {
     text-decoration: none;
 
-}  
+}    
+
 /*Header*/
     header {
         text-align: center;
@@ -43,16 +44,15 @@ a:link {
         padding: 1rem;
     }
 
-
     #navlist a:hover {
-        background: rgba(203, 160, 255, 0.514)
-       }
-       
- /*:active*/
- .active a.current{
-    color: black;
-    background-color: rgba(141, 140, 141, 0.377);
- }
+     background: rgba(203, 160, 255, 0.514);
+    }
+
+     /*:active*/
+    .active a.current{
+        color: black;
+        background-color: rgba(141, 140, 141, 0.377);
+     }
      
   nav:active{
       color: rgba(203, 160, 255, 0.925);
@@ -64,17 +64,14 @@ a:link {
     .links a:active {
         background-color: rgba(141, 140, 141, 0.925);
       }
- /*and main working working*/
- .wrapper{
+
+/*Body and main working working*/
+/*Wrapper*/
+.wrapper{
     width: auto;
     max-width: 100000000px;
     min-width: 300px;
   }
-
-    body{
-        margin: 0;
-    }
-
     main {
         padding-top: 20px;
         margin: 20px;
@@ -89,27 +86,25 @@ a:link {
     }
 
     h3{
-        border-color: rgba(0, 0, 0, 0.548);
+        border-color: rgba(0, 0, 0, 0.514);
         font-size: 14px;
-    }
-    h4 {
-        font-size: 20px;
-    }
-
-    a, p{
-        font-size: 16px;
     }
 
     ul {
         list-style: none;
     }
-    
-    li {
-        margin: 10px;
+
+    #list{
+        display: block; 
+        text-align: left;
     }
 
     #why {
         list-style-image: url("/images/tomato.jpg");
+    }
+
+    a, p{
+        font-size: 16px;
     }
 
     ol, ul, dl{
@@ -121,13 +116,16 @@ a:link {
     .list {
         display: wrap;
     }
-    #why {
-        list-style: circle;
+
+    #what {
+        list-style: square;
     }
-    .Header {
+
+    textarea {
         display: flex;
         justify-content: center;
-     }
+        text-align: center;
+    }
 
 /*footer*/
     footer {
@@ -139,7 +137,6 @@ a:link {
         padding-bottom: 10px;
         padding-top: 10px;
     }
-
 /*@media rules*/
 
 @media screen and (max-width: 100000px) {
