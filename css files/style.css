@@ -11,14 +11,15 @@ a:link {
 }    
 
 /*Header*/
-    header {
-        text-align: center;
-        width: 100%;
-        display: wrap;
-        background-image: url("/images/lemons.jpg");
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
+header {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    display: wrap;
+    background-image: url("/images/lemons.jpg");
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
     /*Navagation working*/
     #navbar {
         display: flex;
