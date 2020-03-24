@@ -91,7 +91,7 @@ background-color: rgba(203, 160, 255, 0.925);
 
     h3{
         border-color: rgba(0, 0, 0, 0.548);
-        font-size: 14px;
+        font-size: 18px;
     }
 
     a, p{
@@ -110,6 +110,11 @@ background-color: rgba(203, 160, 255, 0.925);
     }
     .list {
         display: wrap;
+    }
+
+    #words {
+        font-size: 18px;
+        padding-bottom: 15px;
     }
 
     #why {
