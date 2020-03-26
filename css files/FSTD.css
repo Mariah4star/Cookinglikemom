@@ -121,7 +121,6 @@ background-color: rgba(203, 160, 255, 0.925);
         grid-gap: 3rem;
         max-width: 1280px;
         padding: 10px;
-        margin: 20px;
 
      }
 
@@ -260,6 +259,15 @@ footer {
         padding-left: 40px;
         padding-bottom: 20px;
     }
+
+    .grid{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 2fr));
+        grid-gap: 3rem;
+        max-width: 1280px;
+     }
+    
     button{
         border-radius: 25px;
     }
