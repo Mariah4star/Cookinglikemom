@@ -114,7 +114,17 @@ background-color: rgba(203, 160, 255, 0.925);
         font-size: 12px;
         width: 300px;
     }
-    
+
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 2fr));
+        grid-gap: 3rem;
+        max-width: 1280px;
+        padding: 10px;
+        margin: 20px;
+
+     }
+
     .list {
         display: wrap;
     }
