@@ -141,6 +141,15 @@ background-color: rgba(203, 160, 255, 0.925);
         margin: 0;
         }
 
+        #one {
+            display: flex;
+            justify-content: center;
+        }
+        #two {
+            padding-right: 40%;
+        }
+
+
 /*footer*/
 footer {
     background-color:rgb(252, 251, 182);
