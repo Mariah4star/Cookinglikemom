@@ -143,11 +143,33 @@ background-color: rgba(203, 160, 255, 0.925);
 
         #one {
             display: flex;
-            justify-content: center;
+            justify-content: left;
+            padding-left: 20px;
         }
         #two {
             padding-right: 40%;
+            padding-left: 20px;
         }
+
+        th, td {
+            width: 100%;
+            font: black;
+            border-bottom: 1px solid #ddd;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 14px;
+          }
+
+          th {
+            background-color: rgba(203, 160, 255, 0.925);
+            color: white;
+            
+          }
+
+    tr:nth-child(even) {background-color: #f2f2f2;}
+    
+     tr:hover {background-color: rgb(252, 251, 182)}
+
 
 
 /*footer*/
